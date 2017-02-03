@@ -1,0 +1,21 @@
+{
+  "name": "circus-rat",
+  "version": "1.0.0",
+  "description": "benchmark repo",
+  "main": " ",
+  "repository": "git@github.com:arayi/circus-rat",
+  "author": "Ara Melayn <am@arayi.org>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register ./javascript/spec/*.js",
+    "lint": "eslint ./javascript/*.js ./javascript/spec/*.js"
+  }
+}
