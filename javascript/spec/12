@@ -1,0 +1,11 @@
+import { expect } from 'chai'
+import fn from '../12-string-me-along.js'
+
+describe('Guess the number', () => {
+  'use strict'
+
+  it('Exists', () => {
+    expect(fn).to.be.an('object')
+  })
+  it('Test manually from the console using `node 12-string-me-along.js`')
+})

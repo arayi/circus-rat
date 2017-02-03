@@ -1,0 +1,11 @@
+import { expect } from 'chai'
+import fn from '../15-finite-state-gate.js'
+
+describe('Guess the number', () => {
+  'use strict'
+
+  it('Exists', () => {
+    expect(fn).to.be.an('object')
+  })
+  it('Test manually from the console using `node 15-finite-state-gate.js`')
+})
